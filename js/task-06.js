@@ -2,8 +2,6 @@ const elements = {
   input: document.querySelector('#validation-input'),
 };
 
-console.log(elements.input);
-
 elements.input.addEventListener('blur', handlerValues);
 
 function handlerValues(evt) {
